@@ -3,13 +3,28 @@ Dependency
 ---
 
 ## 1. ESLint & Prettier
-```aidl
+```
 https://prettier.io/
 ```
 
 ```bash
 npm install --save-dev --save-exact prettier
 echo {}> .prettierrc.json
+npm install --save-dev eslint-config-prettier
+```
+
+## 2. Mui
+
+```
+https://mui.com/material-ui/getting-started/installation/
+```
+
+```bash
+npm install @mui/material  
+npm install styled-components   
+npm install @mui/icons-material
+npm install @mui/styled-engine-sc
+
 ```
 
 ```
