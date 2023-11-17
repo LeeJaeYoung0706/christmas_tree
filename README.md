@@ -21,7 +21,8 @@ https://mui.com/material-ui/getting-started/installation/
 
 ```bash
 npm install @mui/material  
-npm install styled-components   
+npm install @emotion/react @emotion/styled 
+npm i sass
 npm install @mui/icons-material
 npm install @mui/styled-engine-sc
 
