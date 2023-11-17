@@ -8,13 +8,13 @@ const nextConfig = {
     // minification이란 스크립트 파일과 웹 페이지에 대한 코드를 최소화하는 것이다. 이를 통해 웹페이지의 로딩 시간을 줄이고,
     // 속도와 접근성을 향상시키면서 더 나은 사용자 경험(UX)를 이끌어 낼 수 있다.
     // https://swc.rs/docs/configuration/minification#jscminifycompress
-    webpack: (config) => {
-        config.resolve.alias = {
-                ...config.resolve.alias,
-                '@mui/styled-engine': '@mui/styled-engine-sc',
-        };
-        return config;
-    },
+    // webpack: (config) => {
+    //     config.resolve.alias = {
+    //             ...config.resolve.alias,
+    //             '@mui/styled-engine': '@mui/styled-engine-sc',
+    //     };
+    //     return config;
+    // },
     // Style components 설정
     modularizeImports: {
         '@mui/icons-material': {

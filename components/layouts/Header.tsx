@@ -148,22 +148,11 @@ export default function Header () {
             </div>
             <div className={styles.tool}>
                 <div className={styles.search_bar} >
-                    <Autocomplete
-                        style={{borderColor: 'rgb(229,57,80)'}}
-                        freeSolo
-                        id="free-solo-2-demo"
-                        disableClearable
-                        options={top100Films.map((option) => option.title)}
-                        renderInput={(params) => (
-                            <TextField
-                                {...params}
-                                label="친구 검색"
-                                InputProps={{
-                                    ...params.InputProps,
-                                    type: 'search',
-                                }}
-                            />
-                        )}
+                    <TextField
+                        label="친구 검색"
+                        InputProps={{
+                            type: 'search',
+                        }}
                     />
                 </div>
                 <div className={styles.login_button}>
