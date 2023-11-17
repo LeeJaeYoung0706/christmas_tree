@@ -1,48 +1,60 @@
-.header {
+//.header {
+//   width: 100%;
+//   height: 162px;
+//   background-color: white;
+//   color: black;
+//   position: fixed; // 배치 고정
+//   left: 0;
+//   top: 0;
+//   padding-bottom: 10px; // 내부 간격
+//   border-bottom: solid 1px rgb(229,57,80); // 아래 선
+//   display: flex;
+//   justify-content: flex-start; // 가로축 위치 지정
+//   align-content: stretch; // 세로 축 위치 지정
+//   flex-wrap: wrap; // 이미지 전체 감싸기
+//   // flex-direction: row-reverse; 위치 반대로
+//   // block => 줄 바꿈
+//   // inline => 줄바꿈이 안되야 정상인데 헤더에서 됨
+//   // inline-flex => 줄 바꿈 안됨
+//   // flex => 줄바꿈 안됨
+//}
+//
+//.header_logo {
+//   left: 0;
+//   margin-left: -10px;
+//   margin-top: -1.4em;
+//   position: absolute;
+//}
+//
+//.tool {
+//   display: flex;
+//   justify-content: flex-start; // 가로축 위치 지정
+//   align-content: stretch; // 세로 축 위치 지정
+//   flex-wrap: wrap; // 이미지 전체 감싸기
+//   margin-top: 80px;
+//   position: absolute;
+//   right: 0;
+//   padding: 20px;
+//   align-items: end;
+//}
+//
+//.search_bar {
+//   width: 170px;
+//}
+//
+//.login_button {
+//   padding-left: 10px;
+//   margin-bottom: 0.1em;
+//}
+
+
+.headerAppbar {
+   z-index: 11;
+   position: fixed;
    width: 100%;
-   height: 162px;
-   background-color: white;
-   color: black;
-   position: fixed; // 배치 고정
-   left: 0;
-   top: 0;
-   padding-bottom: 10px; // 내부 간격
-   border-bottom: solid 1px rgb(229,57,80); // 아래 선
-   display: flex;
-   justify-content: flex-start; // 가로축 위치 지정
-   align-content: stretch; // 세로 축 위치 지정
-   flex-wrap: wrap; // 이미지 전체 감싸기
-   // flex-direction: row-reverse; 위치 반대로
-   // block => 줄 바꿈
-   // inline => 줄바꿈이 안되야 정상인데 헤더에서 됨
-   // inline-flex => 줄 바꿈 안됨
-   // flex => 줄바꿈 안됨
+   margin-top: -10px;
 }
 
-.header_logo {
-   left: 0;
-   margin-left: -10px;
-   margin-top: -1.4em;
-   position: absolute;
-}
-
-.tool {
-   display: flex;
-   justify-content: flex-start; // 가로축 위치 지정
-   align-content: stretch; // 세로 축 위치 지정
-   flex-wrap: wrap; // 이미지 전체 감싸기
-   margin-top: 80px;
-   position: absolute;
-   right: 0;
-   padding: 20px;
-   align-items: end;
-}
-
-.search_bar {
-   width: 170px;
-}
-
-.login_button {
-   padding-left: 10px;
-   margin-bottom: 0.1em;
+.IconButton {
+   margin: 20px;
 }
