@@ -11,7 +11,7 @@ import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Image from "next/image";
-import styles from "./header.module.scss";
+import styles from "./layouts.module.scss";
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
